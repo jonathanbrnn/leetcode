@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd938688-c1fb-4cbd-9b2f-4ebcd9873f3d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2aRGQAB0UwEsH6lNobX4TFgvkVw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.__hello__.executor": "Run",
+    "Python._dumpster.executor": "Run",
+    "Python._solution.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd938688-c1fb-4cbd-9b2f-4ebcd9873f3d" name="Changes" comment="" />
+      <created>1704273958532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704273958532</updated>
+      <workItem from="1704273960266" duration="2431000" />
+      <workItem from="1704288827948" duration="7094000" />
+      <workItem from="1704382753204" duration="2788000" />
+      <workItem from="1704645775191" duration="8394000" />
+      <workItem from="1704734587946" duration="3583000" />
+      <workItem from="1704799352974" duration="6683000" />
+      <workItem from="1704907233661" duration="1439000" />
+      <workItem from="1704910938271" duration="2744000" />
+      <workItem from="1704981055937" duration="4539000" />
+      <workItem from="1705154756714" duration="4899000" />
+      <workItem from="1705253334644" duration="22684000" />
+      <workItem from="1705659670127" duration="385000" />
+      <workItem from="1705665617237" duration="32000" />
+      <workItem from="1705835621088" duration="926000" />
+      <workItem from="1705912637292" duration="1245000" />
+      <workItem from="1705915492446" duration="27000" />
+      <workItem from="1705915527795" duration="785000" />
+      <workItem from="1705922171767" duration="1213000" />
+      <workItem from="1706002102982" duration="1249000" />
+      <workItem from="1706003556730" duration="332000" />
+      <workItem from="1706005563089" duration="652000" />
+      <workItem from="1706036073745" duration="13000" />
+      <workItem from="1706087411623" duration="374000" />
+      <workItem from="1706091642746" duration="957000" />
+      <workItem from="1706094571860" duration="975000" />
+      <workItem from="1706104317884" duration="11000" />
+      <workItem from="1706106800445" duration="1645000" />
+      <workItem from="1706114667571" duration="620000" />
+      <workItem from="1706513202150" duration="1265000" />
+      <workItem from="1706710340565" duration="788000" />
+      <workItem from="1707131207614" duration="674000" />
+      <workItem from="1707216864087" duration="3000" />
+      <workItem from="1707217014245" duration="1174000" />
+      <workItem from="1708380221553" duration="4511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$__hello__.coverage" NAME="__hello__ Coverage Results" MODIFIED="1705579293361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12" />
+    <SUITE FILE_PATH="coverage/leetcode$_solution.coverage" NAME="_solution Coverage Results" MODIFIED="1705577939201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trapping Rain Water" />
+    <SUITE FILE_PATH="coverage/leetcode$_dumpster.coverage" NAME="_dumpster Coverage Results" MODIFIED="1707217571802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
