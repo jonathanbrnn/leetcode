@@ -1,10 +1,17 @@
 class Solution:
-    def goLeft(self, node:Optional[TreeNode]) -> int:
-        if node.left != None:
-            self.goLeft(node.left)
-        else:
-            return node.val
+    def findBottomLeftValue(self, root):
+        last = 0
+        q = deque([root])
 
-    def findBottomLeftValue(self, root: Optional[TreeNode]) -> int:
-        sol = self.goLeft(root)
-        return sol
+        while q:
+            count = len(q)
+            for i in range(count):
+                curr = q.popleft()
+                if i == 0:
+                    last = curr.val
+                if curr.left:
+                    q.append(curr.left)
+                if curr.right:
+                    q.append(curr.right)
+
+        return last
