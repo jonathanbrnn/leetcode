@@ -6,3 +6,9 @@ class Solution:
             s = s.replace(char, "")
         sol += s
         return sol
+
+
+order = "cda"
+s = "bcdad"
+sol = Solution()
+print(sol.customSortString(order, s))
