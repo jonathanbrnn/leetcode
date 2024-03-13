@@ -1,15 +1,13 @@
 class Solution:
     def pivotInteger(self, n: int) -> int:
-        x = 0
-        y = 0
+        current_sum = 0
+        total_sum = sum(range(1, n+1))
         for i in range(1, n+1):
-            x += i
-            for j in range(i, n+1):
-                y += j
-            if x == y:
+            current_sum += i
+            if current_sum == total_sum:
                 return i
             else:
-                y = 0
+                total_sum -= i
         return -1
 
 
