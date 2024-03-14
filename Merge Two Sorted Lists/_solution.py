@@ -16,9 +16,8 @@ class Solution:
                 node2 = node2.next
             current = current.next
 
-        if node1 is not None:
-            current.next = node1
-        elif node2 is not None:
-            current.next = node2
+        current.next = node1 or node2
+
+        return merged.next
 
         return merged.next

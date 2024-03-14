@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd938688-c1fb-4cbd-9b2f-4ebcd9873f3d" name="Changes" comment="" />
+    <list default="true" id="fd938688-c1fb-4cbd-9b2f-4ebcd9873f3d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merge Two Sorted Lists/_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merge Two Sorted Lists/_solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,6 +124,7 @@
       <workItem from="1710175353051" duration="7603000" />
       <workItem from="1710243406499" duration="2000" />
       <workItem from="1710283184607" duration="796000" />
+      <workItem from="1710328982705" duration="914000" />
     </task>
     <servers />
   </component>

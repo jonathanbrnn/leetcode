@@ -8,12 +8,12 @@ class Node:
         # self.previous = None
 
 
-def createLinkedList(nums: list, sort: bool = False):
+def createLinkedList(nums: list, sortList: bool = False):
     if not nums:
         return None
 
     try:
-        if sort:
+        if sortList:
             nums.sort()
     except TypeError:
         pass
@@ -23,16 +23,18 @@ def createLinkedList(nums: list, sort: bool = False):
         node.val = num
         if i < len(nums) - 1:
             node.next = Node()
-            #node.next.previous = node
+            # node.next.previous = node
             node = node.next
     return head
 
 
-def createArray(node: Node) -> list:
+def createArray(node: Node, sortArray: bool = False) -> list:
     arr = []
     while node is not None:
         arr.append(node.val)
         node = node.next
+    if sortArray:
+        arr.sort()
     return arr
 
 
@@ -157,3 +159,7 @@ l2 = createLinkedList(arr2)
 print(createArray(l2))
 l2 = insert(l2, 0, 34256789)
 print(createArray(l2))
+l3 = mergeTwoLinkedLists(l1, l2)
+print(createArray(l3, True))
+l3 = delete(l3, 3)
+print(createArray(l3))
