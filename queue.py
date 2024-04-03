@@ -28,3 +28,4 @@ arr1 = [1,2,3,4,5,6,7]
 for num in arr1:
     stack1.push(num)
     stack1.printQueue()
+# Test
