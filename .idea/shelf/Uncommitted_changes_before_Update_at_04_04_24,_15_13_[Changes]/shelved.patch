@@ -1,0 +1,71 @@
+Index: queue.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>class Queue():\n    def __init__(self):\n            self.s1 = []\n            self.s2 = []\n\n    def push(self, x):\n        while self.s1:\n            self.s2.append(self.s1.pop())\n        self.s1.append(x)\n        while self.s2:\n            self.s1.append(self.s2.pop())\n\n    def pop(self):\n        return self.s1.pop()\n\n    def peek(self):\n        return self.s1[-1]\n\n    def empty(self):\n        return not self.s1\n\n    def printQueue(self):\n        print(self.s1)\n        print(self.s2)\n\nstack1 = Queue()\narr1 = [1,2,3,4,5,6,7]\nfor num in arr1:\n    stack1.push(num)\n    stack1.printQueue()\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/queue.py b/queue.py
+--- a/queue.py	(revision 21c218c9c7c592b538b1a48e2bd15deae5120591)
++++ b/queue.py	(date 1712236253711)
+@@ -28,3 +28,4 @@
+ for num in arr1:
+     stack1.push(num)
+     stack1.printQueue()
++# Test
+Index: .idea/copilot/chatSessions/xd.lck
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Private property of Exodus: 38315@MacBook-Pro\n\njetbrains.exodus.io.LockingManager.lock(LockingManager.kt:88)\njetbrains.exodus.io.LockingManager.lock(LockingManager.kt:39)\njetbrains.exodus.io.FileDataWriter.lock(FileDataWriter.kt:70)\njetbrains.exodus.log.Log.tryLock(Log.kt:804)\njetbrains.exodus.log.Log.<init>(Log.kt:117)\njetbrains.exodus.env.Environments.newLogInstance(Environments.kt:117)\njetbrains.exodus.env.Environments.newLogInstance(Environments.kt:81)\njetbrains.exodus.env.Environments.newLogInstance(Environments.kt:77)\njetbrains.exodus.env.Environments$newInstance$4.invoke(Environments.kt:46)\njetbrains.exodus.env.Environments$newInstance$4.invoke(Environments.kt:46)\njetbrains.exodus.env.Environments.prepare(Environments.kt:120)\njetbrains.exodus.env.Environments.newInstance(Environments.kt:46)\nkotlinx.dnq.store.container.EntityStoreHelperKt.createTransientEntityStore(EntityStoreHelper.kt:40)\nkotlinx.dnq.store.container.EntityStoreHelperKt.createTransientEntityStore(EntityStoreHelper.kt:31)\nkotlinx.dnq.store.container.EntityStoreHelperKt.createTransientEntityStore$default(EntityStoreHelper.kt:30)\ncom.github.copilot.chat.session.persistence.xodus.XdChatSessionPersistenceService.initStore(XdChatSessionPersistenceService.kt:115)\ncom.github.copilot.chat.session.persistence.xodus.XdChatSessionPersistenceService.<init>(XdChatSessionPersistenceService.kt:22)\ncom.github.copilot.chat.session.persistence.xodus.XdChatSessionPersistenceService.<init>(XdChatSessionPersistenceService.kt:15)\ncom.github.copilot.chat.session.persistence.ChatSessionPersistenceServiceKt.ChatSessionPersistenceService(ChatSessionPersistenceService.kt:43)\ncom.github.copilot.chat.session.persistence.ChatSessionPersistenceServiceKt.chatSessionsPersistenceService(ChatSessionPersistenceService.kt:53)\ncom.github.copilot.chat.session.ChatSessionManager.<init>(ChatSessionManager.kt:45)\ncom.github.copilot.chat.session.ChatSessionManager.<init>(ChatSessionManager.kt:25)\ncom.github.copilot.chat.window.CopilotChatToolWindow.onCopilotReady(CopilotChatToolWindow.kt:133)\ncom.github.copilot.chat.window.CopilotChatToolWindow.access$onCopilotReady(CopilotChatToolWindow.kt:40)\ncom.github.copilot.chat.window.CopilotChatToolWindow$initCopilotStatusListener$1.invoke(CopilotChatToolWindow.kt:118)\ncom.github.copilot.chat.window.CopilotChatToolWindow$initCopilotStatusListener$1.invoke(CopilotChatToolWindow.kt:115)\ncom.github.copilot.status.CopilotAuthStatusKt.subscribeToCopilotAuthStatus$lambda$0(CopilotAuthStatus.kt:44)\ncom.intellij.util.messages.impl.MessageBusImplKt.invokeMethod(MessageBusImpl.kt:700)\ncom.intellij.util.messages.impl.MessageBusImplKt.invokeListener(MessageBusImpl.kt:664)\ncom.intellij.util.messages.impl.MessageBusImplKt.deliverMessage(MessageBusImpl.kt:423)\ncom.intellij.util.messages.impl.MessageBusImplKt.pumpWaiting(MessageBusImpl.kt:402)\ncom.intellij.util.messages.impl.MessageBusImplKt.access$pumpWaiting(MessageBusImpl.kt:1)\ncom.intellij.util.messages.impl.MessagePublisher.invoke(MessageBusImpl.kt:461)\njdk.proxy4/jdk.proxy4.$Proxy168.onCopilotStatus(Unknown Source)\ncom.github.copilot.status.CopilotStatusService.notifyApplication(CopilotStatusService.java:76)\ncom.github.copilot.status.CopilotStatusService.notifyApplication(CopilotStatusService.java:64)\ncom.github.copilot.github.GitHubAuthStartupActivity.handleAuthNotifications(GitHubAuthStartupActivity.java:54)\ncom.github.copilot.github.GitHubAuthStartupActivity.execute(GitHubAuthStartupActivity.java:35)\ncom.intellij.ide.startup.impl.StartupManagerImplKt$launchActivity$1.invokeSuspend(StartupManagerImpl.kt:482)\nkotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)\nkotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)\nkotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)\nkotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)\nkotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)\nkotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/copilot/chatSessions/xd.lck b/.idea/copilot/chatSessions/xd.lck
+--- a/.idea/copilot/chatSessions/xd.lck	(revision 21c218c9c7c592b538b1a48e2bd15deae5120591)
++++ b/.idea/copilot/chatSessions/xd.lck	(date 1712236369401)
+@@ -1,4 +1,4 @@
+-Private property of Exodus: 38315@MacBook-Pro
++Private property of Exodus: 19838@MBPvonJonathan
+ 
+ jetbrains.exodus.io.LockingManager.lock(LockingManager.kt:88)
+ jetbrains.exodus.io.LockingManager.lock(LockingManager.kt:39)
+@@ -33,7 +33,7 @@
+ com.intellij.util.messages.impl.MessageBusImplKt.pumpWaiting(MessageBusImpl.kt:402)
+ com.intellij.util.messages.impl.MessageBusImplKt.access$pumpWaiting(MessageBusImpl.kt:1)
+ com.intellij.util.messages.impl.MessagePublisher.invoke(MessageBusImpl.kt:461)
+-jdk.proxy4/jdk.proxy4.$Proxy168.onCopilotStatus(Unknown Source)
++jdk.proxy4/jdk.proxy4.$Proxy170.onCopilotStatus(Unknown Source)
+ com.github.copilot.status.CopilotStatusService.notifyApplication(CopilotStatusService.java:76)
+ com.github.copilot.status.CopilotStatusService.notifyApplication(CopilotStatusService.java:64)
+ com.github.copilot.github.GitHubAuthStartupActivity.handleAuthNotifications(GitHubAuthStartupActivity.java:54)
+Index: Longest Palindrome/sol.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Longest Palindrome/sol.py b/Longest Palindrome/sol.py
+new file mode 100644
+--- /dev/null	(date 1712236253710)
++++ b/Longest Palindrome/sol.py	(date 1712236253710)
+@@ -0,0 +1,21 @@
++from collections import Counter
++
++class Solution:
++    def longestPalindrome(self, s):
++        total = 0
++        has_odd = False
++        for val in Counter(s).values():
++            if val % 2 == 0:
++                total += val
++            else:
++                total += val - 1
++                has_odd = True
++
++        if has_odd:
++            total += 1
++
++        return total
++
++
++s = "civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"
++print(Solution().longestPalindrome(s))
