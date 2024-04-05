@@ -1,8 +1,8 @@
 from gentest import GenerateTestCases
 
 newGen = GenerateTestCases()
-nums = newGen.genNums(-200, 200, 100)
-target = newGen.genTarget(-200, 200)
+nums = newGen.genNums(-10000, 10000, 10000000)
+target = newGen.genTarget(-10000, 10000)
 newGen.writeToFile("testcases.txt", nums, target)
 
 with open("testcases.txt", "r") as f:
@@ -23,7 +23,7 @@ class Solution:
         left = 0
         right = len(nums)-1
         nums.sort()
-        while left<right:
+        while left < right:
             if nums[left] + nums[right] == target:
                 return nums[left], nums[right]
                 break
