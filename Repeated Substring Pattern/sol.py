@@ -4,12 +4,12 @@ class Solution:
         l = len(s)
         for char in s:
             current += char
-            if current * l == s:
+            m = l // len(current)
+            if current * m == s and m != 1:
                 return True
-            else:
-                l = l//2
+        return False
 
 
-s = "abababab"
+s = "abcabcabcabc"
 sol = Solution()
 print(sol.repeatedSubstringPattern(s))
