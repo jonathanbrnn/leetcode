@@ -49,7 +49,7 @@
     "Python.linkedlist.executor": "Run",
     "Python.runtime1.executor": "Profiler",
     "Python.runtime2.executor": "Profiler",
-    "Python.sol.executor": "Run",
+    "Python.sol.executor": "Profiler",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -130,6 +130,7 @@
       <workItem from="1710448903243" duration="4000" />
       <workItem from="1712236369872" duration="814000" />
       <workItem from="1712323653138" duration="3066000" />
+      <workItem from="1712513033003" duration="925000" />
     </task>
     <servers />
   </component>
