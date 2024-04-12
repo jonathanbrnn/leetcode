@@ -8,7 +8,6 @@ def count_folders(directory):
     return folder_count
 
 
-# Example usage:
-path = "../leetcode/"
+path = "/Users/jonathan/PycharmProjects/leetcode/"
 total_folders = count_folders(path)
 print("Total folders in the path:", total_folders)

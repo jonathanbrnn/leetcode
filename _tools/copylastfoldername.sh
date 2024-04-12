@@ -13,4 +13,4 @@ folder_name=$(basename "$last_folder")
 echo -n "$folder_name" | pbcopy
 
 # Notify the user
-echo "Copied '$folder_name' to the clipboard."
+echo "Copied '$folder_name', from the leetcode directory to the clipboard."
