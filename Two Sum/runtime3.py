@@ -10,7 +10,6 @@ class Solution(object):
         for i, num in enumerate(nums):
             l = target - num
             if l in nums and nums.index(l) != i:
-                print(l, num)
                 return i, nums.index(l)
 
 
