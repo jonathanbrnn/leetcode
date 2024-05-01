@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fd938688-c1fb-4cbd-9b2f-4ebcd9873f3d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reverse Prefix of Word/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/Reverse Prefix of Word/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,28 +39,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.__hello__.executor": "Run",
-    "Python._annasol.executor": "Run",
-    "Python._dumpster.executor": "Run",
-    "Python._solution.executor": "Profiler",
-    "Python.gentest.executor": "Run",
-    "Python.linkedlist.executor": "Run",
-    "Python.runtime1.executor": "Profiler",
-    "Python.runtime2.executor": "Profiler",
-    "Python.sol.executor": "Profiler",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.__hello__.executor&quot;: &quot;Run&quot;,
+    &quot;Python._annasol.executor&quot;: &quot;Run&quot;,
+    &quot;Python._dumpster.executor&quot;: &quot;Run&quot;,
+    &quot;Python._solution.executor&quot;: &quot;Profiler&quot;,
+    &quot;Python.gentest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.linkedlist.executor&quot;: &quot;Run&quot;,
+    &quot;Python.runtime1.executor&quot;: &quot;Profiler&quot;,
+    &quot;Python.runtime2.executor&quot;: &quot;Profiler&quot;,
+    &quot;Python.sol.executor&quot;: &quot;Profiler&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -135,7 +134,8 @@
       <workItem from="1712856688813" duration="633000" />
       <workItem from="1713431466398" duration="392000" />
       <workItem from="1714071171772" duration="651000" />
-      <workItem from="1714547551164" duration="705000" />
+      <workItem from="1714547551164" duration="1397000" />
+      <workItem from="1714603288453" duration="56000" />
     </task>
     <servers />
   </component>
