@@ -39,28 +39,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.__hello__.executor&quot;: &quot;Run&quot;,
-    &quot;Python._annasol.executor&quot;: &quot;Run&quot;,
-    &quot;Python._dumpster.executor&quot;: &quot;Run&quot;,
-    &quot;Python._solution.executor&quot;: &quot;Profiler&quot;,
-    &quot;Python.gentest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.linkedlist.executor&quot;: &quot;Run&quot;,
-    &quot;Python.runtime1.executor&quot;: &quot;Profiler&quot;,
-    &quot;Python.runtime2.executor&quot;: &quot;Profiler&quot;,
-    &quot;Python.sol.executor&quot;: &quot;Profiler&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.__hello__.executor": "Run",
+    "Python._annasol.executor": "Run",
+    "Python._dumpster.executor": "Run",
+    "Python._solution.executor": "Profiler",
+    "Python.gentest.executor": "Run",
+    "Python.linkedlist.executor": "Run",
+    "Python.runtime1.executor": "Profiler",
+    "Python.runtime2.executor": "Profiler",
+    "Python.sol.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -137,7 +137,7 @@
       <workItem from="1714547551164" duration="1397000" />
       <workItem from="1714603288453" duration="2061000" />
       <workItem from="1716387144220" duration="12000" />
-      <workItem from="1717519024347" duration="1136000" />
+      <workItem from="1717519024347" duration="1535000" />
     </task>
     <servers />
   </component>
@@ -163,6 +163,6 @@
     <SUITE FILE_PATH="coverage/leetcode$runtime1.coverage" NAME="runtime1 Coverage Results" MODIFIED="1712324969832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Two Sum" />
     <SUITE FILE_PATH="coverage/leetcode$_dumpster.coverage" NAME="_dumpster Coverage Results" MODIFIED="1707217571802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$_annasol.coverage" NAME="_annasol Coverage Results" MODIFIED="1712324499587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Two Sum" />
-    <SUITE FILE_PATH="coverage/leetcode$sol.coverage" NAME="sol Coverage Results" MODIFIED="1713431773606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Top K Frequent Elements" />
+    <SUITE FILE_PATH="coverage/leetcode$sol.coverage" NAME="sol Coverage Results" MODIFIED="1717520386382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Removing Stars From a String" />
   </component>
 </project>
