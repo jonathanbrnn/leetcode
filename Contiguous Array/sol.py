@@ -1,16 +1,14 @@
 class Solution:
     def findMaxLength(self, nums) -> int:
-        zero_count = 0
-        one_count = 0
-        max_length = 0
-        for i in range(len(nums)):
-            if nums[i] == 0:
-                zero_count += 1
+        sum_index = {0: -1}
+        current = max_length = 0
+
+        for i, num in enumerate(nums):
+            current += 1 if num == 1 else -1
+
+            if current in sum_index:
+                max_length = max(max_length, i - sum_index[current])
             else:
-                one_count += 1
-            if zero_count == one_count:
-                max_length = zero_count + one_count
+                sum_index[current] = i
+
         return max_length
-
-
-print(Solution().findMaxLength([0,0,1,0,0,0,1,1]))
