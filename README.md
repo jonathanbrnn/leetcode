@@ -4,7 +4,7 @@ Hey there! Welcome to my LeetCode solutions repository! This is where I stash aw
 
 ## Structure
 
-Inside this repository, you'll find folders named after the corresponding problems. Dive in and explore!
+Inside this repository, you'll find folders named after the corresponding problems and their difficulties. Dive in and explore!
 
 ## Usage
 
@@ -22,6 +22,5 @@ Shoutout to the awesome LeetCode community for providing a space to sharpen our 
 
 Got questions, suggestions, or just want to chat? Drop me a line at [jo.braun567@gmail.com]. I'm always up for conversations about coding, algorithms, and all things tech.
 
-Sending love from Germany,  
+Sending love from Germany,
 Jonathan
-
