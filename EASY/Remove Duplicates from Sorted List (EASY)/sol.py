@@ -27,3 +27,19 @@ class Solution:
                 node = node.next
 
         return res
+
+# Faster approach I came up while working on "Remove Duplicates from Sorted List II":
+class Solution:
+    def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head:
+            return head
+
+        current = head
+
+        while current and current.next:
+            if current.val == current.next.val:
+                current.next = current.next.next
+            else:
+                current = current.next
+
+        return head
