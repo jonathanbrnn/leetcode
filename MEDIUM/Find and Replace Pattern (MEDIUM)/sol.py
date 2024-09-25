@@ -1,5 +1,5 @@
 class Solution:
-    def convert(self, word: str) -> str:
+    def convert(self, word: str) -> list:
         i = 0
         patt = []
         dic = {}
@@ -12,9 +12,9 @@ class Solution:
 
         return patt
 
-    def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:
-        res = []
-        patt = self.convert(pattern)
+    def findAndReplacePattern(self, words: List[str], pattern: str) -> list:
+        res: list = []
+        patt: list = self.convert(pattern)
 
         for word in words:
             if patt == self.convert(word):
