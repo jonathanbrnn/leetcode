@@ -1,6 +1,6 @@
 class Solution:
     def dividePlayers(self, skill: List[int]) -> int:
-        if len(skill) < 2:
+        if len(skill) % 2 != 0:
             return -1
 
         skill.sort()
