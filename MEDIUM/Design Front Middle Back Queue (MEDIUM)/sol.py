@@ -1,4 +1,4 @@
-# This was my first approach using a LinkedList, it took me a while to figure it out
+# This was my first approach using a LinkedList. It took me 30 - 45 min to figure it out.
 # Runtime: [86ms, 17.48mb]
 
 class ListNode:
@@ -92,7 +92,7 @@ class FrontMiddleBackQueue:
         self.length -= 1
         return removed_val
 
-# And this is the disgusting easy way to do it, Runtime: [59ms, 17.36mb]:
+# And this is the disgustingly easy way to do it. Runtime: [59ms, 17.36mb]:
 
 class FrontMiddleBackQueue:
 
@@ -125,8 +125,6 @@ class FrontMiddleBackQueue:
             return self.queue.pop()
         return -1
 
-# This took me about 5 minutes and is really easy because of pythons built in insert() and pop() functions
-# When trying to solve this problem id recommend to either trying to solve it using a variation of a LinkedList
-# or to use a double-ended queue.
-
-
+# This took me about 5 minutes and is really easy because of Python's built-in insert() and pop() functions.
+# When trying to solve this problem, I'd recommend either trying to solve it using a variation of a LinkedList
+# or using a double-ended queue.
