@@ -61,7 +61,7 @@ class FrontMiddleBackQueue:
             self.length -= 1
             return removed_val
 
-        middle = middle = (self.length - 1) // 2
+        middle = (self.length - 1) // 2
         node = self.head
 
         for _ in range(middle):
