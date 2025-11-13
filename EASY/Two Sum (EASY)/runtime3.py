@@ -7,8 +7,16 @@ with open("testcases.txt", "r") as f:
 
 class Solution(object):
     def twoSum(self, nums, target):
+        seen: dict[int, int] = {}
+
         for i, num in enumerate(nums):
             l = target - num
+
+            if l in seen:
+                return i, seen[l]
+            if num not in seen:
+                seen[num] = i
+
             if l in nums and nums.index(l) != i:
                 return i, nums.index(l)
 

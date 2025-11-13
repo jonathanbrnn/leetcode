@@ -9,6 +9,6 @@ class Solution(object):
                 return [i, hashmap[l]]
 
 
-nums = [1,3,4,54,65,7]
+nums = [1, 3, 4, 54, 65, 7]
 target = 10
 print(Solution().twoSum(nums, target))
