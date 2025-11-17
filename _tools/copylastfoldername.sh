@@ -1,16 +1,31 @@
-#!/bin/bash
+base_directory="/Users/jonathan/PycharmProjects/leetcode/"
+difficulty_dirs=("EASY" "MEDIUM" "HARD")
 
-# Specify the directory
-directory="/Users/jonathan/PycharmProjects/leetcode/"
+latest_folder=""
+latest_folder_time=0
 
-# Get the name of the last added folder
-last_folder=$(ls -t -d "$directory"/*/ | head -n 1)
+for difficulty in "${difficulty_dirs[@]}"; do
+    difficulty_directory="$base_directory/$difficulty"
 
-# Extract only the folder name
-folder_name=$(basename "$last_folder")
+    if [ -d "$difficulty_directory" ]; then
+        for folder in "$difficulty_directory"/*/; do
+            folder_time=$(stat -f %m "$folder")
 
-# Copy the folder name to the clipboard
-echo -n "$folder_name" | pbcopy
+            if [ "$folder_time" -gt "$latest_folder_time" ]; then
+                latest_folder_time=$folder_time
+                latest_folder=$folder
+            fi
+        done
+    else
+        echo "Directory '$difficulty_directory' does not exist."
+    fi
+done
 
-# Notify the user
-echo "Copied '$folder_name', from the leetcode directory to the clipboard."
+if [ -n "$latest_folder" ]; then
+    folder_name="${latest_folder%/}"
+    folder_name="${folder_name##*/}"
+    echo "$folder_name" | pbcopy
+    echo "Copied '$folder_name' to the clipboard."
+else
+    echo "No folders found in the difficulty directories."
+fi

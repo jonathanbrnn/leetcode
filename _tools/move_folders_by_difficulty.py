@@ -31,6 +31,6 @@ def move_folders_by_difficulty(source_dir, dest_base_dir):
                     break
 
 if __name__ == "__main__":
-    source_directory = '/Users/jonathan/PycharmProjects/leetcode/'  # Source directory with current folders  # Base directory for destination folders
+    source_directory = '/Users/jonathan/PycharmProjects/leetcode/'
 
     move_folders_by_difficulty(source_directory, source_directory)

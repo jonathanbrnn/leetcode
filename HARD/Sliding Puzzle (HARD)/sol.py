@@ -87,22 +87,25 @@ class Solution:
         target: str = "123450"
         early_exit: list[list[int]] = [[1, 2, 3], [4, 5, 0]]
 
-        if board == target:
+        if board == early_exit:
             return 0
 
         root: Optional["GraphNode"] = GraphNode(None, board, 0)
 
-        visited = set()
+        visited: dict[str, int] = {}
         fringe = []
         heapq.heappush(fringe, root)
 
         while fringe:
             current_node: Optional["GraphNode"] = heapq.heappop(fringe)
 
-            if current_node.id in visited:
+            if (
+                current_node.id in visited
+                and current_node.steps > visited[current_node.id]
+            ):
                 continue
 
-            visited.add(current_node.id)
+            visited[current_node.id] = current_node.steps
 
             if current_node.id == target:
                 return current_node.steps
